@@ -1,0 +1,135 @@
+@media (min-width: 1200px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
+#xlNavbar .navbar-brand, #navbarMenuToggler, #xlNavbar .nav-link {
+  line-height: 80px;
+}
+#xlNavbar .nav-link {
+  font-size: 14px;
+}
+#navbarMenuToggler, #navbarMenu .nav-link {
+  color: rgb(255, 90, 95);
+  transition: color 0.25s;
+  z-index: 1;
+}
+#navbarMenuToggler.collapsed {
+  color: #fff
+}
+#navbarMenu .nav-link {
+  padding: 12px 0;
+  font-weight: 300;
+}
+#navbarMenu {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 88px;
+}
+.container-fluid, .container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* hero content */
+#hero {
+  background-image: url(./images/luca-bravo-zAjdgNXsMeg-unsplash.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+#hero h2 {
+  padding-top: 168px;
+}
+
+/* SEARCH FORM------------- */
+
+#searchForm .form-control {
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 0;
+}
+#searchForm .btn-danger {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #ff5a5f;
+  border-color: #ff5a5f;
+}
+@media (min-width: 1200px) {
+  #hero {
+    height: 100vh;
+    min-height: 650px;
+  }
+}
+@media (min-width: 1200px) {
+  #searchForm {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #searchForm {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+  }
+  #searchForm form {
+    padding: 32px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+    max-width: 441px;
+  }
+
+}
+@media (min-width: 1200px) {
+  #xlNavbar .nav-link div:hover {
+    border-bottom: 2px solid #fff;
+  }
+}
+#message {
+  bottom: 0;
+  right: 0;
+}
+#navbar {
+  z-index: 1;
+}
+@media (max-width: 767px) {
+  .headings h4 {
+    font-size: 18px;
+  }
+  .headings p {
+    font-size: 13px;
+  }
+}
+.scrollableRow {
+  overflow-x: scroll;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.scrollableRow > [class*=col-] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.scrollableRow .filler {
+  min-width: 18px;
+}
+.review .description {
+  line-height: 18px;
+  max-height: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipses;
+}
+.review .user i {
+  font-size: 48px;
+}
+.review .user .name b {
+  font-weight: 500;
+}
+.review .user .location {
+  line-height: 18px;
+}
